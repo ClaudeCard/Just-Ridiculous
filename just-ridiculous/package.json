@@ -1,4 +1,11 @@
 {
+  {
+  "type": "module",
+  "name": "just-ridiculous",
+  "version": "1.0.0",
+  ...
+}
+
   "name": "just-ridiculous",
   "version": "1.0.0",
   "scripts": {
