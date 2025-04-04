@@ -1,10 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import './index.css'; // Assuming Tailwind or global styles
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css"; // or your Tailwind/global CSS
+import AetheronOrb from "./AetheronOrb";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
+    <AetheronOrb />
   </React.StrictMode>
 );
