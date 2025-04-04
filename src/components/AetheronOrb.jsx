@@ -8,7 +8,9 @@ const links = [
 ];
 
 const sounds = {
-  hover: new Howl({ src: ["/sounds/hover.mp3"] }),
+  hover: new Howl({ src: ["/audio/hover.mp3"] }), // ✅ fix the path
+};
+
 };
 
 export default function AetheronOrb() {
