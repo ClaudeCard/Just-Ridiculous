@@ -1,11 +1,10 @@
-import AetheronOrb from "./components/AetheronOrb";
+import React from 'react';
+import AetheronOrb from './components/AetheronOrb';
 
-function App() {
+export default function App() {
   return (
     <div className="min-h-screen bg-black text-white flex items-center justify-center">
       <AetheronOrb />
     </div>
   );
 }
-
-export default App;
